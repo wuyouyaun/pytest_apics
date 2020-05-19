@@ -25,6 +25,9 @@ def buy_buniess(s,ricingModel='premiumPrice',bdPremiumPrice=500,
 def conmin():
     print("ces")
 
+def comtest():
+    print("2222")
+
 if __name__=="__main__":
     #url ="http://192.168.7.162:16031/mgtshowgroup/setObjectVal"
     s=requests.session()

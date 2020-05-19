@@ -31,4 +31,6 @@ def test_BuyListThree(unlogin_fixture,ricingModel,bdPremiumPrice,bdnPremiumPrice
     assert r.json()['succeed']==expected['succeed']
     assert r.json()['errorMsg']==expected["errorMsg"]
 
-
+@pytest.mark.skip("在开发，跳过这个用例")
+def test_run():
+    print("待开发")
