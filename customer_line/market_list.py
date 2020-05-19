@@ -22,6 +22,8 @@ def buy_buniess(s,ricingModel='premiumPrice',bdPremiumPrice=500,
     r=s.post(url,json=body,verify=False)
     # print(r.json())
     return r
+def conmin():
+    print("ces")
 
 if __name__=="__main__":
     #url ="http://192.168.7.162:16031/mgtshowgroup/setObjectVal"
